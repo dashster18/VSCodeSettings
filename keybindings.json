@@ -1,0 +1,33 @@
+// Place your key bindings in this file to overwrite the defaults
+[{
+        "key": "alt+h",
+        "command": "deleteWordLeft",
+        "when": "editorTextFocus"
+    }, {
+        "key": "ctrl+x d",
+        "command": "editor.action.formatDocument",
+        "when": "editorTextFocus"
+    }, {
+        "key": "ctrl+x e",
+        "command": "HookyQR.beautify",
+        "when": "editorTextFocus"
+    }, {
+        "key": "ctrl+x m",
+        "command": "workbench.action.editor.changeLanguageMode",
+        "when": "editorTextFocus"
+    },
+    // Toggle between terminal and editor focus
+    {
+        "key": "ctrl+x n",
+        "command": "workbench.action.files.newUntitledFile",
+        "when": "editorTextFocus"
+    },{
+        "key": "ctrl+`",
+        "command": "workbench.action.terminal.focus"
+    },
+    {
+        "key": "ctrl+`",
+        "command": "workbench.action.focusActiveEditorGroup",
+        "when": "terminalFocus"
+    }
+]
